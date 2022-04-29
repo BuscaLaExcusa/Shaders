@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain
+  m_Shader: {fileID: -6465566751694194690, guid: 225e6eb84c743a9438a14c0dfbe60a26, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BeachThreshold: 0.145
+    - Height: 4.63
+    - Mountain: 0
+    - MountainBodyThreshold: 0.686
+    - MountainFootThreshold: 0.654
+    - MountainTopThreshold: 0.897
+    - MountainWallAngle: 0.275
+    - Scale: 4.37
+    - ValleyThreshold: 0.21
+    - _Offset: 0.051
+    m_Colors:
+    - Deep_Sea: {r: 0.04561232, g: 0.07080521, b: 0.2358491, a: 1}
+    - MountainColor: {r: 0.4056604, g: 0.310823, b: 0.28128338, a: 1}
+    - MountainFoot: {r: 0.3815063, g: 0.5471698, b: 0.36908153, a: 1}
+    - MountainTop: {r: 0.8962264, g: 0.7956123, b: 0.7482645, a: 1}
+    - Sand: {r: 0.8679245, g: 0.785885, b: 0.5444998, a: 1}
+    - Shore: {r: 0.5267444, g: 0.7628251, b: 0.8396226, a: 1}
+    - Valley: {r: 0.3834995, g: 0.4339623, b: 0.3050018, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &6109756134848735071
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
