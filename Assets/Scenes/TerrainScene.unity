@@ -336,10 +336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _filter: {fileID: 944032412}
   _offset: {x: 1, y: 1}
-  _mountainHeight: 0.5
-  _mountainSpread: 0.2
-  _roughnessDepth: 0.5
-  _roughnessSpread: 0.2
+  _height: 0.5
+  _scale: 4.28
 --- !u!1 &1465665201
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +500,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5d51b02423f18634f906185d2afea617, type: 2}
     - target: {fileID: 919132149155446097, guid: f2811e24ff81e954daa11a0397af4af5, type: 3}
       propertyPath: m_Name
-      value: Terrain2
+      value: Terrain
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2811e24ff81e954daa11a0397af4af5, type: 3}

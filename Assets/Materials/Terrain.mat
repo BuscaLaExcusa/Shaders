@@ -34,14 +34,14 @@ Material:
     m_Ints: []
     m_Floats:
     - BeachThreshold: 0.145
-    - Height: 4.63
+    - Height: 6.57
     - Mountain: 0
-    - MountainBodyThreshold: 0.686
+    - MountainBodyThreshold: 0.536
     - MountainFootThreshold: 0.654
-    - MountainTopThreshold: 0.897
-    - MountainWallAngle: 0.275
-    - Scale: 4.37
-    - ValleyThreshold: 0.21
+    - MountainTopThreshold: 1
+    - MountainWallAngle: 0.591
+    - Scale: 8
+    - ValleyThreshold: 0.41
     - _Offset: 0.051
     m_Colors:
     - Deep_Sea: {r: 0.04561232, g: 0.07080521, b: 0.2358491, a: 1}
